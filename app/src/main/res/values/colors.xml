@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#388e3c</color>
+    <color name="color_primary_dark">#2e7d32</color>
+    <color name="color_primary_light">#59ae47</color>
+    <color name="color_accent">#ff6d00</color>
+    <color name="color_walkthrough_01">#546e7a</color>
+    <color name="color_walkthrough_02">#ff6d00</color>
+    <color name="color_walkthrough_03">#388e3c</color>
+    <color name="color_desc_walkthrough">#99ffffff</color>
+    <color name="color_text_dark">#424242</color>
+    <color name="color_text_light">#848a90</color>
+    <color name="color_bg_activity">#f4f4f4</color>
+    <color name="color_bg_card_view">#ffffff</color>
+    <color name="color_bg_circular_progress_bar">#e2e5e6</color>
+    <color name="color_salad">#388e3c</color>
+    <color name="color_meat">#ff6d00</color>
+    <color name="color_spices">#7b4bff</color>
+    <color name="color_cheese">#f8c000</color>
+    <color name="color_drink">#3ca8f7</color>
+    <color name="color_line">#e0e0e0</color>
+</resources>

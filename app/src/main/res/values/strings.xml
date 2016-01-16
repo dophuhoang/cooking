@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cooking</string>
+    <string name="title_walkthrough_01">KHÁM PHÁ</string>
+    <string name="title_walkthrough_02">VÀO BẾP</string>
+    <string name="title_walkthrough_03">CHIA SẺ</string>
+    <string name="description_walkthrough_01">Học nấu ăn rất đơn giản qua các công thức.</string>
+    <string name="description_walkthrough_02">Vận dụng ngay công thức sẵn có để tạo nên những bữa ăn tuyệt vời cho gia đình bạn.</string>
+    <string name="description_walkthrough_03">Cùng sáng tạo, đóng góp và chia sẻ công thức của bạn đến với tất cả mọi người.</string>
+    <string name="text_ingredient">Nguyên liệu</string>
+    <string name="text_nutrition">Thành phần dinh dưỡng</string>
+    <string name="text_recipe">Công thức</string>
+    <string name="text_food">Món ăn</string>
+    <string name="text_salad">Rau củ</string>
+    <string name="text_meat">Thịt</string>
+    <string name="text_spices">Gia vị</string>
+    <string name="text_cheese">Pho mát</string>
+    <string name="text_drink">Đồ uống</string>
+</resources>

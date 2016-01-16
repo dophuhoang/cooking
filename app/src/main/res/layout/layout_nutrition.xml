@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view_ingredients"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textViewNutrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/text_nutrition"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_text_dark"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout_proteins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <vn.dohoang.cooking.view.CircularProgressBar
+                            android:id="@+id/circular_progress_bar_proteins"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_centerInParent="true"
+                            app:backgroundColor="@color/color_bg_circular_progress_bar"
+                            app:progressColor="@color/color_meat"
+                            app:roundedCorners="true"
+                            app:strokeWidth="12"
+                            app:sweepAngle="0"
+                            app:animationDuration="1000"/>
+
+                        <TextView
+                            android:id="@+id/text_view_proteins_percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-thin"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_text_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_proteins"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="Chất đạm"
+                        android:textColor="@color/color_text_light"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_carbohydrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <vn.dohoang.cooking.view.CircularProgressBar
+                            android:id="@+id/circular_progress_bar_carbohydrate"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_centerInParent="true"
+                            app:backgroundColor="@color/color_bg_circular_progress_bar"
+                            app:progressColor="@color/color_drink"
+                            app:roundedCorners="true"
+                            app:strokeWidth="12"
+                            app:sweepAngle="0"
+                            app:animationDuration="1000"/>
+
+                        <TextView
+                            android:id="@+id/text_view_carbohydrate_percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-thin"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_text_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_carbohydrate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="Hyđrat cabon"
+                        android:textColor="@color/color_text_light"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_fats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <vn.dohoang.cooking.view.CircularProgressBar
+                            android:id="@+id/circular_progress_bar_fats"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_centerInParent="true"
+                            app:backgroundColor="@color/color_bg_circular_progress_bar"
+                            app:progressColor="@color/color_spices"
+                            app:roundedCorners="true"
+                            app:strokeWidth="12"
+                            app:sweepAngle="0"
+                            app:animationDuration="1000"/>
+
+                        <TextView
+                            android:id="@+id/text_view_fats_percent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-thin"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_text_dark"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/text_view_fats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="Chất béo"
+                        android:textColor="@color/color_text_light"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_view_calories_percent"
+                        android:layout_width="82dp"
+                        android:layout_height="82dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/icon_circle"
+                        android:fontFamily="sans-serif-thin"
+                        android:gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/text_view_calories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="Calo"
+                        android:textColor="@color/color_text_dark"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
